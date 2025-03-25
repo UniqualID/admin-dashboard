@@ -14,8 +14,8 @@ html {
 body {
 	min-height: 100%;
 	display: grid;
-	grid-template-rows:	133fr 631fr;
-	grid-template-columns: 221fr 851fr;
+	grid-template-rows:	108fr 631fr;
+	grid-template-columns: 1fr 7fr;
 }
 
 
@@ -27,12 +27,12 @@ aside {
 
 .line {
 	width: 100%;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 500;
 	display: flex;
 	align-items: center;
 	padding: 15px;
-	padding-left: 50px;
+	padding-left: 30px;
 	gap: 20px;
 }
 
@@ -51,9 +51,9 @@ aside {
 }
 
 .main-line {
-	padding-left: 40px;
+	padding-left: 15px;
 	font-weight: bold;
-	font-size: 24px
+	font-size: 20px
 }
 
 .main-line img {
@@ -64,19 +64,15 @@ aside {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	padding: 20px 40px;
+	padding: 10px 30px;
 	gap: 20px
-}
-
-.nav-first {
-	height: 85px;
 }
 
 .nav-first .icon {
 	width: 35px;
 }
 
-.nav-first .icon:nth-child(2):hover {
+.nav-first .icon:nth-child(3):hover {
 	filter: invert(19%) sepia(96%) saturate(7496%) hue-rotate(359deg) brightness(94%) contrast(119%);
 }
 .nav-first input {
@@ -85,24 +81,20 @@ aside {
 	border-radius: 20px;
 	border: 0px;
 	flex: 1 0 700px;
-	height: 40px;
+	height: 35px;
 	padding: 2px 30px;
 	font-size: 24px;
-	/* margin-right: 100px; */
+	margin-right: 200px;
 }
 
 .nav-first .profile {
-	width: 45px;
+	width: 35px;
 	border-radius: 50%
 }
 
 .nav-first p {
-	font-size: 24;
+	font-size: 15px;
 	font-weight: bold;
-}
-
-.nav-second {
-	height: calc(100% - 85px)
 }
 
 .nav-second .profile{
@@ -139,7 +131,8 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 350px;
 	grid-template-rows: 1fr 1fr;
-	padding: 40px 40px 80px 30px;
+	padding: 0px 30px;
+	padding-top: 10px;
 	gap: 20px;
 }
 
@@ -201,8 +194,7 @@ main {
 
 .projects-container {
 	display: grid;
-	height: 100%;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 300px 300px;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 20px;
 }
